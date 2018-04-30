@@ -1,4 +1,4 @@
-baseurl = "https://iothings.fr/"
+baseurl = "https://docs.iothings.fr/"
 languageCode = "en-us"
 title = "IoThings Docs"
 theme = "hugo-material-docs"
