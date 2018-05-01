@@ -9,7 +9,7 @@ weight: 0
 
 IoThings is an open-source IoT framework that will allow you to speed up your backend developments, while being secure, reliable and scalable.
 
-![Material Screenshot](/images/screen.png)
+![Material Screenshot](/screenshots/devices.png)
 
 Material is very lightweight – it is built from scratch using Javascript and
 CSS that weighs less than 30kb (minified, gzipped and excluding Google Fonts
