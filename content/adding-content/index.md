@@ -12,3 +12,9 @@ See [![Swagger](https://img.shields.io/badge/Postman-Here-orange.svg)](https://a
 
 # Models customization
 Models can be either customized in the `models` folder, or generated with a script that is currently in progress.
+
+# Sigfox import
+Go to your Sigfox Dashboard, click on Device Type, Then on Group Name, and on the left, at API Access.
+Click on New at the top Right, Put a name and select at least `DEVICES_MESSAGES[R]`
+
+Remember Login and Password generated identifiers

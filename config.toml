@@ -15,7 +15,7 @@ googleAnalytics = ""
 
 	# Repository
 	provider = "GitHub"
-	repo_url = "https://github.com/IoThingsDev/api"
+	repo_url = "https://github.com/IoThingsDev/core-api"
 
 	version = "1.0.0"
 	logo = "favicons/logo.png"

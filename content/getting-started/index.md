@@ -23,6 +23,8 @@ Congratulations, you are all set !
 
 ## Configuration
 ### Sigfox Use
+IoThings provide an hosted version of the API, in best effort policy, just replace `youraddress` by `api.iothings.fr`
+
 Connect to your account, select your device type and create two callbacks:
 
 Type: `DATA` `UPLINK`,
@@ -72,11 +74,11 @@ Content-type: `application/json`
 
 ## NGinx configuration
 ### With HTTPS using certbot
-You can copy paste and customize the [nginx/conf-https-step-1](https://github.com/IoThingsDev/api/tree/master/nginx/conf-https-step-1) to your etc/nginx/sites-enabled/yourdomain
+You can copy paste and customize the [nginx/conf-https-step-1](https://github.com/IoThingsDev/core-api/tree/master/nginx/conf-https-step-1) to your etc/nginx/sites-enabled/yourdomain
 sudo service nginx reload
 Run certbot ....
 
-Copy paste and customize the [nginx/conf-https-step-2](https://github.com/IoThingsDev/api/tree/master/nginx/conf-https-step-2)
+Copy paste and customize the [nginx/conf-https-step-2](https://github.com/IoThingsDev/core-api/tree/master/nginx/conf-https-step-2)
 to your `etc/nginx/sites-enabled/yourdomain`
 `sudo service nginx reload`
 
